@@ -141,7 +141,7 @@ start_button = InlineKeyboardMarkup(
         ],
         [
            InlineKeyboardButton(
-                text="🌷 Support Group", url="https://github.com/szsupunma"
+                text="🌷 Support Group", url="https://t.me/Altex_Support"
             ),
             InlineKeyboardButton(
                 text="🛠 Developer", url="http://t.me/HASINDU_HIMASARA"
