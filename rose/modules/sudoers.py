@@ -24,9 +24,9 @@ import heroku3
 import requests
 
 
-HEROKU_APP_NAME = "rosexbot"
+HEROKU_APP_NAME = "altexbotnew"
 
-HEROKU_API_KEY = "043454e2-fc5d-4d26-83d2-a7ef91b7e08f"
+HEROKU_API_KEY = "fca2f8d4-fbab-4e4c-a617-833c9ffaf5a4"
 
 
 heroku_api = "https://api.heroku.com"
