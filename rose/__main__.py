@@ -141,10 +141,10 @@ start_button = InlineKeyboardMarkup(
         ],
         [
            InlineKeyboardButton(
-                text="🛠 Github", url="https://github.com/szsupunma"
+                text="🌷 Support Group", url="https://github.com/szsupunma"
             ),
             InlineKeyboardButton(
-                text="👨‍💻Developer", url="http://t.me/supunmabot"
+                text="🛠 Developer", url="http://t.me/HASINDU_HIMASARA"
             ),
         ],
         [
@@ -157,9 +157,11 @@ start_button = InlineKeyboardMarkup(
 )
 
 start_text = f"""
-Hello There ! I'm **Rosebot** ✨ 
-An  advanced telegram Group management Bot For help 
-You Protect Your Groups & Suit For All Your Needs.
+<b>🇱🇰 Hᴇʟʟᴏ Tʜᴇʀᴇ, I'ᴍ Aʟᴛᴇx Bᴏᴛ (http://t.me/AltexSL_BOT)
+🍕 I'ᴍ ᴀ Pᴏᴡᴇʀꜰᴜʟʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇʀ ʙᴏᴛ Wɪᴛʜ Cᴏᴏʟ Mᴏᴅᴜʟᴇs. 
+
+☔️ Tʜɪs ʙᴏᴛ ɪs ᴠᴇʀʏ ᴜsᴇꜰᴜʟ ᴛᴏ ᴍᴀᴋᴇ ʏᴏᴜʀ ᴅᴀɪʟʏ ᴡᴏʀᴋ ᴇᴀsɪᴇʀ.
+🐬 2022 Aʟᴛᴇx BOT Aʟʟ Rɪɢʜᴛs Rᴇsᴇʀᴠᴇᴅ<b/>
 """
 
 keyboard = InlineKeyboardMarkup(
@@ -179,9 +181,8 @@ basichelp_string = """
 ✘ Base commands are the basic tools of Rose Bot which help you to manage 
 your group easily and effectivelyYou can choose 
 an option below, by clicking a button.
-Also you can ask anything in [Support Group](https://t.me/slbotzone).
+Also you can ask anything in [Support Group](https://t.me/Altex_Support).
 
->> [Shorter the Way, Faster you Go! 🏃‍♂️](https://t.me/szteambots/872)
 """
 
 funtools_string = """
@@ -189,9 +190,9 @@ funtools_string = """
 
 ✘ Extra tools which are available in bot and tools made for fun are here
 You can choose an option below, by clicking a button.
-Also you can ask anything in [Support Group](https://t.me/slbotzone).
+Also you can ask anything in [Support Group](https://t.me/Altex_Support).
 
-Click buttons to get help [?](https://t.me/szteambots/872)
+
 """
 
 advtools_string = """
@@ -200,9 +201,9 @@ advtools_string = """
 ✘ Advanced commands will help you to secure your groups 
 from attackers and do many stuff in group from a single bot
 You can choose an option below, by clicking a button.
-Also you can ask anything in [Support Group](https://t.me/slbotzone).
+Also you can ask anything in [Support Group](https://t.me/Altex_Support).
 
->> [Shorter the Way, Faster you Go! 🏃‍♂️](https://t.me/szteambots/872)
+
 """
 
 @app.on_message(filters.command(["start", f"@{BOT_USERNAME}"]))
@@ -234,7 +235,7 @@ started time - `2022 {dater}:{timer} `
                 """
             )
         return await message.reply(
-            "**Heya, @szrosebot here :) PM me if you have any questions how to use me!**", reply_markup=keyboard
+            "**Heya, @AltexSL_BOT here :) PM me if you have any questions how to use me!**", reply_markup=keyboard
         )
     if len(message.text.split()) > 1:
         name = (message.text.split(None, 1)[1]).lower()
@@ -675,7 +676,7 @@ BTTON_1 = InlineKeyboardMarkup(
         InlineKeyboardButton('Formatting ', callback_data='for_commands')
         ],
         [
-        InlineKeyboardButton('Bug Report', url="https://t.me/slbotzone")
+        InlineKeyboardButton('Bug Report', url="https://t.me/Altex_Support")
         ],
         [InlineKeyboardButton('🔙 Back', callback_data='bot_commands')
         ]]
