@@ -220,8 +220,8 @@ async def start(_, message):
                 f"""
 
 🌷 Name - {message.from_user.mention}
-📅 UserID - `{message.from_user.id}`
-⏰ Started Time - `2022 {dater}: {timer} `         
+📅 ID - `{message.from_user.id}`
+⏰ Started Time - `2022 {dater}|{timer} `         
                 """
             )
     if message.chat.type != "private":
