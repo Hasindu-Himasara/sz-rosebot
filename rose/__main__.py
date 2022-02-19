@@ -218,10 +218,10 @@ async def start(_, message):
     await app.send_message(
                 LOG_GROUP_ID,
                 f"""
-#NEW_USER
-username- {message.from_user.mention}
-userid- `{message.from_user.id}`
-started time - `2022 {dater}:{timer} `         
+
+🌷 Name - {message.from_user.mention}
+📅 UserID - `{message.from_user.id}`
+⏰ Started Time - `2022 {dater}: {timer} `         
                 """
             )
     if message.chat.type != "private":
@@ -230,8 +230,8 @@ started time - `2022 {dater}:{timer} `
                 LOG_GROUP_ID,
                 f"""
 #NEW_GROUP
-Total users in group - {total}
-started time - `2022 {dater}:{timer} `         
+🎉 Total users in group - {total}
+⏰ Started Time - `2022 {dater}: {timer} `         
                 """
             )
         return await message.reply(
