@@ -18,10 +18,10 @@ caption = """
 ⚡️ **Powered By **  : [szteambots](https://t.me/szteambots)
 `◇───────────────◇️ ` 
     """
-JOIN_ASAP = f" **🚫 Access Denied**\n\n You Must Join [My News Channel](https://t.me/szteambots)To Use Me. So, Please Join it & Try Again." 
+JOIN_ASAP = f" **🚫 Access Denied**\n\n You Must Join [My News Channel](https://t.me/Altex_Updates)To Use Me. So, Please Join it & Try Again." 
 FSUBB = InlineKeyboardMarkup( 
            [[ 
-               InlineKeyboardButton(text="News Channel ", url=f"https://t.me/szteambots") 
+               InlineKeyboardButton(text="News Channel ", url=f"https://t.me/Altex_Updates") 
            ]] 
 )
 
