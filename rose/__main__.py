@@ -157,7 +157,7 @@ start_button = InlineKeyboardMarkup(
 )
 
 start_text = f"""
-<b>🇱🇰 Hᴇʟʟᴏ Tʜᴇʀᴇ, I'ᴍ Aʟᴛᴇx Bᴏᴛ (http://t.me/AltexSL_BOT)
+🇱🇰 Hᴇʟʟᴏ Tʜᴇʀᴇ, I'ᴍ Aʟᴛᴇx Bᴏᴛ.
 🍕 I'ᴍ ᴀ Pᴏᴡᴇʀꜰᴜʟʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇʀ ʙᴏᴛ Wɪᴛʜ Cᴏᴏʟ Mᴏᴅᴜʟᴇs. 
 
 ☔️ Tʜɪs ʙᴏᴛ ɪs ᴠᴇʀʏ ᴜsᴇꜰᴜʟ ᴛᴏ ᴍᴀᴋᴇ ʏᴏᴜʀ ᴅᴀɪʟʏ ᴡᴏʀᴋ ᴇᴀsɪᴇʀ.
@@ -348,10 +348,10 @@ keyboar = InlineKeyboardMarkup(
                     ],
                     [
                         InlineKeyboardButton(
-                            text="News Channel 🗣", url="https://t.me/szteambots"
+                            text="Updates Channel 🗣", url="https://t.me/Altex_Updates"
                         ),
                         InlineKeyboardButton(
-                            text="Support Group👥", url="https://t.me/slbotzone"
+                            text="Support Group👥", url="https://t.me/Altex_Support"
                         ),
                     ],
                     [
